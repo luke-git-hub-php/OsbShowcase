@@ -1,0 +1,8 @@
+christian-kohler.path-intellisense
+CoenraadS.bracket-pair-colorizer-2
+eamodio.gitlens
+jchannon.csharpextensions
+k--kato.docomment
+ms-dotnettools.csharp
+rahulsahay.Csharp-ASPNETCore
+VisualStudioExptTeam.vscodeintellicode
