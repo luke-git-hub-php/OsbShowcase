@@ -12,7 +12,7 @@ namespace OsbShowcase.Models
 
         public Todo CopyWith(string description, DateTime? createdAt, DateTime? completedAt)
         {
-            return new Todo
+            return new Todo()
             {
                 Id = Id,
                 Description = description ?? Description,
