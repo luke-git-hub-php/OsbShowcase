@@ -21,7 +21,7 @@ namespace OsbShowcase.Services
         {
         }
 
-        public async Task<Todo> CreateTodo(TodoDto data)
+        public async Task<Todo> CreateTodo(TodoDTo data)
         {
             var todo = new Todo
             {

@@ -20,13 +20,19 @@ namespace OsbShowcase.Models
                 CompletedAt = completedAt ?? CompletedAt
             };
         }
-    }
 
-    public class TodoDto
-    {
-        public long? Id { get; set; }
-        public string Description { get; set; }
-        public DateTime? CreatedAt { get; set; }
-        public DateTime? CompletedAt { get; set; }
+        public Todo TodoDto(TodoDTO data){
+
+             var todo = new TodoDTO
+             {
+                Id = data.Id,
+                Description = data.Description,
+                CreatedAt = data.CreatedAt,
+                CompletedAt = data.CompletedAt,
+                Completed = data.Completed
+             };
+             
+             return todo;
+        }   
     }
 }
